@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #222222;
+    }
+
+    .site-header,
+    .lessons,
+    h1 {
+        background-color: #232946;
+        margin: 0;
+    }
+
+    .site-header {
+        padding: 1.875rem;
+    }
+
+    .site-header h1 {
+        font-size: 2.8125rem;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .lessons h2 {
+        font-size: 2.375rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left, 
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .col {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .card {
+        padding-bottom: 1.5625rem;
+    }
+    
+    .why-us h2 {
+        padding: 2rem;
+    }
+}   
